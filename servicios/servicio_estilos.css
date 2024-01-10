@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --color-rosa:rgb(255, 0, 242);
+    --color-azul:rgb(0, 195, 255);
+    --color-morado:rgb(126, 6, 150);
+    --efecto-luz: #b2f3fc;
+}
+
+body{
+    background: rgb(14, 14, 14) !important;
+    padding: 5px 40px;
+}
+.row{
+    display: flex !important;
+}
+
+.fondo-gris{
+    background-color: rgb(80, 80, 80);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90px;
+    max-height: 90px;
+    margin-bottom: 5px;
+}
+.titulo-servicio{
+    font-size: medium;
+    color: #fff;
+}
+
+.icon{
+    max-width: 100%;
+}
+
+.descripcion{
+   color: #fff;
+   font-weight: 200;
+}
+
+.row{
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+#personal{
+    color: #b2f3fc;
+}
+
+#negocios{
+    color: rgb(248, 156, 171);
+}
